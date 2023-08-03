@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.bgLeft {
+  background-image: url("./images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.frontCard {
+  background-image: url("./images/bg-card-front.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+}
+
+.backCard {
+  background-image: url("./images/bg-card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bgLeft {
+    background-image: url("./images/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .frontCard,
+  .backCard {
+    width: 300px;
+  }
+}
