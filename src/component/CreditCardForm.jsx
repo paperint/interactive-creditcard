@@ -101,7 +101,7 @@ const CreditCardForm = () => {
                 </label>
               </div>
               <button
-                className="w-full rounded-md py-2 text-white bg-purple-950"
+                className="w-full rounded-md py-2 text-white bg-purple-900"
                 type="submit"
               >
                 Confirm
@@ -119,7 +119,7 @@ const CreditCardForm = () => {
               </h1>
               <p className=" text-slate-400">We've added your card details.</p>
               <button
-                className="w-full rounded-md py-2 text-white bg-purple-950"
+                className="w-full rounded-md py-2 text-white bg-purple-900"
                 onClick={() => {
                   setConfirmed(false),
                     setName(""),
